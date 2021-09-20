@@ -1,0 +1,59 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/*Header*/
+header {
+    width:100%;
+    height:60px;
+    background-color:rgb(111, 126, 255);
+    text-align:center;
+}
+
+header h1 {
+    margin:0;
+    font-family:Arial black;
+    color:#fff;
+}
+/*Header*/
+
+/*Contenido*/
+.inputUser {
+    width:50%;
+    height:40px;
+    font-size:35px;
+    text-align:center;
+    position:absolute;
+    top:150px;
+    left:25%;
+}
+
+.btnSend {
+    width:100px;
+    height:30px;
+    background-color:rgb(255, 161, 55);
+    color:#fff;
+    cursor:pointer;
+    border:1px solid rgb(255, 161, 55);
+    font-size:18px;
+    font-weight:700;
+    transition-duration:.1s;
+    position:absolute;
+    left:25%;
+    top:210px;
+}
+
+.btnSend:hover {
+    width:105px;
+    height:35px;
+}
+
+label {
+    font-size:25px;
+    font-family:Arial, verdana;
+    position:absolute;
+    top:150px;
+    left:10%;
+}
+/*Contenido*/
